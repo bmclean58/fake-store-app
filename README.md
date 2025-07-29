@@ -1,12 +1,23 @@
-# React + Vite
+Fake Store App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
+Fake Store App is a React single-page application that allows users to browse, add, edit, and delete products using the Fake Store API. The app features a Bootstrap-styled interface with a responsive navbar, product listing, product details, and forms for adding and editing products.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View a list of products with images and prices
+View detailed information for each product
+Add new products
+Edit or delete existing products
+Responsive design using Bootstrap
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to run this application on your computer:
+1. Clone or download the repository
+    -If using Git:
+        git clone <repository-url>
+        cd fakestore-app
+    -Or downoad the ZIP and extract it, then open the folder in your terminal or code editor.
+2. Install Dependencies: npm install
+3. Start the Development Server: npm run dev
+4. Open the browser. Visit http://localhost:5173(or the port shown in your terminal) to use the app.

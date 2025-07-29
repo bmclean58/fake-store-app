@@ -1,3 +1,6 @@
+// This component is used to display the footer of the application, making it look more legitimate and professional.
+// Bootstrap is used for styling and layout.
+
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
